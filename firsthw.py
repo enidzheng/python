@@ -1,41 +1,21 @@
 import platform
-#def pyramid():
-print("please input a number")
-try:
-    n = int(input())
-    #print (f"your input is int {n}")
-    if (n>0): 
-    #print("Your input is number")
-      L=n
-      L = int(L)
-      s=L-n
-      d=n*2-1
-      while n > 0:
-       print(" "*s,"."*d)       
-       n=n-1
-       s=L-n
-       d=n*2-1
-    elif (n<=0):
-      print("please input a positive number")
-     
-except ValueError:
-    print("That's not an int!, pleas try again")
-   
-#n=int(n)
-'''if (n>0): 
-    #print("Your input is number")
-    L=n
-    L = int(L)
-    s=L-n
-    d=n*2-1
-    while n > 0:
-      print(" "*s,"."*d)
-      n=n-1
-      s=L-n
-      d=n*2-1
-elif (n<=0):
-    print("please input a positive number")
-else:
-     print("your input is string, please try again")'''
- 
-  
+s = "a"
+while s == "a":
+  print("Please input a number grater than 0")
+  try:  
+    n=int(input())
+    if n > 0:
+        s = "b"
+    else:
+        print(f"I requested yo to enter number grater than 0 and You entered {n}")
+  except:
+    print("Very funny, You have to enter a number")  
+
+L=n
+s=L-n
+d=n*2-1
+while n > 0:
+ print(" "*s,"."*d)       
+ n=n-1
+ s=L-n
+ d=n*2-1

@@ -1,4 +1,4 @@
-# python 3
+# Python 3
 Python 3 practice
 I have made a program to print out a backward pyramid according to user input how many layers they want to print.
 It includes a validation of user input at begaining. 
